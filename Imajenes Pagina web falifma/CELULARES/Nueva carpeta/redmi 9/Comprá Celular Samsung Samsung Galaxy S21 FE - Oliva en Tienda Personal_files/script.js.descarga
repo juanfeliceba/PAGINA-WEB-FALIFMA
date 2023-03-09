@@ -1,0 +1,15 @@
+(function () {
+    var regex = /biv=([0-9a-zA-Z]*)/;
+    var match = regex.exec(location.search);
+
+    if (match != null)
+    {
+        var script = document.createElement('script');
+        script.src = 'https://embed.binkies3d.com/integrations/pMWEXbWu/xqtse23k/' + match[1] + '/script.js';
+        document.head.appendChild(script);
+    }
+    else {
+        (function(c){c=function(){};c.main=function(){var a={IntegrationUrlPath:"https://az589851.vo.msecnd.net/integrations/pMWEXbWu/xqtse23k/242766e",IntegrationId:"xqtse23k",IntegrationVersion:"242766e",AccessKey:"pMWEXbWu",IsLive:!0};window.BinkiesSettings={ViewSettings:b.ViewSettings,IntegrationSettings:a,Supports3D:b.Supports3D};var d=window.document.createElement("script");d.src=a.IntegrationUrlPath+"/integration_static.js";window.document.head.appendChild(d)};var b=function(){};b.Supports3D=function(c,g){if(null==WebGLRenderingContext)c(!1,"WebGLNotSupported",null);else{for(var a=window.document.createElement("canvas"),b=["webgl","experimental-webgl"],d=null,f=0,h=b.length;f<h&&(d=a.getContext(b[f++]),null==d););a=d;if(null==a||"function"!=typeof a.getParameter)c(!1,"WebGLDisabled",a);else{if(g)b=!1;else{b=a.getExtension("WEBGL_debug_renderer_info");var e=null;null!=b&&(e=a.getParameter(b.UNMASKED_RENDERER_WEBGL));b=0!=["Microsoft Basic Render Driver","SwiftShader","Software Adapter",
+"Apple Software Renderer"].filter(function(a){return null!=e?-1!=e.indexOf(a):!1}).length}b?c(!1,"SoftwareRendering",a):c(!0,"",a)}}};;b.ViewSettings={ViewId:"vggShsmV",StatsUrl:"https://binkiesproductionweu.servicebus.windows.net/binkiesproductionp2weu/messages",StatsToken:"SharedAccessSignature sr=https%3a%2f%2fbinkiesproductionweu.servicebus.windows.net%2fbinkiesproductionp2weu%2fmessages&sig=DrCZXDadkq%2fF3r%2f9q2B%2bSCO8xmZlGNEZc6on%2fwe9bjI%3d&se=1656030780&skn=Send",LightmapPath:"https://az589851.vo.msecnd.net/lightmaps/js/photo-studio-with-umbrella-1",PlayerPath:"https://az589851.vo.msecnd.net/players/v75",BrowserSupportsBrotli:true,BrowserSupportsGzip:true};c.main()})({});
+    }
+})()
