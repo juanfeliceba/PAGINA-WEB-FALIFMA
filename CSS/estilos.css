@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
     margin: auto;
@@ -29,7 +28,7 @@ h3{font-size: 2em;}
 p{font-size: 1.25em;}
 ul{ list-style: none;}
 p{
-    color: blueviolet;
+    color: black;
 }
 
 
@@ -50,7 +49,7 @@ button{
 
 }
 button :hover{
-    background-color: rgb(101, 33, 165);
+    background-color: black;
 }
 .container{
     
@@ -75,7 +74,8 @@ header.container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(188, 197, 6, 0.59);;
+    background-color: rgba(240, 30, 30, 0.59);
+    background: blue;
 
 }
 header nav{
@@ -83,7 +83,7 @@ header nav{
     flex-direction: column;
     text-align: center;
     padding-bottom: 10px;
-    background-color: chocolate;
+    background-color:white;
     margin: 1px;
     padding: 1%;
     height: 100px;
@@ -129,7 +129,7 @@ background-position: center center;
 } 
     ;
     #somos-proya p{
-        background-color: chocolate;
+        background-color:white;
         background: black;
         font-family: Arial, Helvetica, sans-serif;
 
@@ -142,7 +142,7 @@ background-position: center center;
 
 #somos-proya .container{
     font-family: Arial, Helvetica, sans-serif;
-   padding: 0%;
+   padding: auto;
     color: black;
     justify-content: center;
     display: flex;
@@ -153,20 +153,19 @@ background-position: center center;
         rgba(0,0,0,0.5)
     )
     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
     
     
+    
 
-}
 
-#nuestros-productos{
-    background-color: rgb(30,30,30);
-    color: white;
-    text-align: center;
-}
 
-#nuestros-productos .container{
-    padding: 150px 12px;
-}
+
+
+
 
 #nuestros-productos h2{
     margin-top: 0;
@@ -178,7 +177,7 @@ background-position: center center;
 }
 
 #nuestros-productos .carta{
-    background-position: center center;
+    background-position:  center;
     background-size: cover;
     padding: 50px 0px;
     margin: 30px;
@@ -186,37 +185,12 @@ background-position: center center;
     
 }
 
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("/IMG/imajen\ principal\ falifma.webp");
-
-}
-
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("");
-}
-
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/python.jpg");
-
-}
 
 
-}
+
+
+
+
 
 #final{
     display: flex;
@@ -238,27 +212,22 @@ background-position: center center;
 }
 
 footer{
-    background-color: rgb(230,230,230);
+    background-color: rgba(250, 12, 12, 0.758);
 }
 
-footer p{
-    margin: 0;
-    padding: 3.5px;
-    color: rgb(238, 14, 14);
-    background-color: white;
-    font-size: small;
+
 
     
    
 
-}
+
 
 footer .container{
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    background-color: rgba(4, 4, 162, 0.196);
+    align-items: center;
+    background-color: white;
     color:black;
     margin: auto;
     padding: auto;
@@ -298,61 +267,24 @@ footer .container{
     }
 
     #somos-proya .texto{
-        width: 50%;
+        width: auto;
         max-width: auto;
-        text-align: initial;
-        padding-left: 30px;
+        text-align: center;
+        padding-left: auto;
         display: flex;
-        flex-direction: column;
+       
         justify-content: center;
     }
 
     #somos-proya h2{
         margin-top: 0px;
-        background-color: chocolate;
+        background-color: white;
     }
     
 
-    #somos-proya .img-container{
-        background-image: url("");
-        background-size: cover;
-        background-position: center center;
-        height: 500px;
-        width: 400px;
-        height: 50vh;
-        
-    }
+    
 
    
-
-    .carta:first-child{
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("/IMG/LOGO\ NUEVO\ FALIFMA.png");
-
-    }
-
-    .carta:nth-child(2){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/full-stack-cropped.jpg");
-    }
-
-    .carta:nth-child(3){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/python-cropped.jpg");
-
-    }
 
 
 
@@ -360,18 +292,9 @@ footer .container{
         font-size: 5em;
     }
 
-    #final button{
-        font-size: 2em;
     }
 
     footer .container{
         justify-content: flex-end;
-        background: rgba(6, 22, 197, 0.59);
+        background: rgba(225, 156, 7, 0.912);
     }
-}
-
-@media (min-width: 1200px) {
-    #caracteristicas{
-        background-position-x: calc(100vw - 800px);
-    }
-}
