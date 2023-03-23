@@ -5,7 +5,7 @@
 }
 
 html{
-background: white;
+background: rgb(244, 7, 7);
 
 
 
@@ -16,7 +16,7 @@ body{
     text-align: center;
     font-family:"roboto",sans-serif;
     margin: 0;
-    background-color: white;
+    background-color: rgb(174, 168, 168);
     
    
 }
@@ -83,7 +83,7 @@ header nav{
     flex-direction: column;
     text-align: center;
     padding-bottom: 10px;
-    background-color:white;
+    background: rgba(225, 156, 7, 0.912);
     margin: 1px;
     padding: 1%;
     height: 100px;
@@ -257,8 +257,8 @@ footer .container{
     #hero h1{
         font-size: 3.cap;
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-color: chocolate;
-        background:chocolate;
+       
+        background:white;
     }
 
     #somos-proya .container{
@@ -297,4 +297,8 @@ footer .container{
     footer .container{
         justify-content: flex-end;
         background: rgba(225, 156, 7, 0.912);
+        text-align: center;
+        font-size: 10px;
+        color: antiquewhite;
     }
+
